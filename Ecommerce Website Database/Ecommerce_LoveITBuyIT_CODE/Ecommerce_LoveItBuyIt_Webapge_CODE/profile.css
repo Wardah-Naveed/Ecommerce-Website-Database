@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.profile-picture {
+    text-align: center;
+}
+
+.profile-picture img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.profile-picture p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.editable-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.editable-field label {
+    min-width: 100px;
+}
+
+.editable-field input[type="text"] {
+    display: none;
+}
+
+.editable-field.edit-mode input[type="text"] {
+    display: block;
+    margin-left: 8px;
+}
+
+.edit-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.editable-field span {
+    border: 2px solid rgb(240, 243, 61);
+    border-radius: 2px;
+    padding: 5px 5px 5px 5px;
+}
+
+.left {
+    flex-basis: 50%;
+}
+
+.right {
+    flex-basis: 50%;
+    display: flex;
+}
+
+.innerleft {
+    flex-basis: 40%;
+    padding-left: 40px;
+}
+
+.innerright {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.handy {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.order {
+    padding: 10px;
+}
+.related-item {
+    display: inline-block;
+    max-width: 300px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.related-item img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.related-item-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related-item-description {
+    font-size: 14px;
+}
+
+.view-button {
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.related-item-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 20px auto;
+    max-width: 8000px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.main{
+    border: 1px solid rgb(209, 198, 198);
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 50px; 
+}

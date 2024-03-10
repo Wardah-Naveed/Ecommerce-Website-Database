@@ -1,0 +1,59 @@
+.handel{
+    width: 70%;
+    margin-top: 40px;
+}
+
+.sidebar{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.head1{
+    background-color: #fca311;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333;
+}
+
+h2{
+    font-size: 20px;
+    color: #14213d;
+}
+.openButton{
+    width: 30%;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background-color: #fca311;
+    padding: 7px 25px;
+    cursor: pointer;
+    color: white;
+}
+.cartItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #aaa;
+    border-radius: 3px;
+    margin: 10px 10px;
+}
+.fa-trash:hover{
+    cursor: pointer;
+    color: #333;
+}

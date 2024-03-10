@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.product-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.product-image-container {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+
+.product-image {
+    max-width: 100%;
+    max-height: 400px;
+    transition: transform 0.3s;
+}
+
+.product-image:hover {
+    transform: scale(1.1);
+}
+
+.image-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.image-navigation button {
+    background: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.product-info {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-description {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.product-quantity {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.quantity-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart-button {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-button {
+    background-color: #47a447;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* New CSS for the related item scrollable container */
+.related-item-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 20px auto;
+    max-width: 10000px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.related-item {
+    display: inline-block;
+    max-width: 300px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.related-item img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.related-item-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related-item-description {
+    font-size: 14px;
+}
+
+.view-button {
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer .contact-info, footer .social-media, footer .message {
+    display: inline-block;
+    margin: 20px;
+}
+.main{
+    border: 1px solid rgb(209, 198, 198);
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 50px; 
+}
